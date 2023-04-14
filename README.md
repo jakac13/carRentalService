@@ -1,4 +1,4 @@
-# carRentalService
+# Car Rental Service
 Designing a Data Model for a Car Rental Service with SQL Developer Data Modeler and Oracle Apex
 
 Logical Model
