@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="imav1" directorySegmentName="seg_0" id="BAD95E8E-40C8-00A4-B4EB-9111DD2B99BE">
+<createdBy>Jaka</createdBy>
+<createdTime>2022-05-03 22:18:05 UTC</createdTime>
+<ownerDesignName>Izposoja avtomobila_Projekt_Rezerva_Popravek</ownerDesignName>
+<engineerTo>
+<item key="11956D01-C529-9AE4-0072-C13759313EF9" value="true"/>
+</engineerTo>
+<sourcePk>DC11BC8D-29D9-F270-9922-A13C2AB567C0</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>38988ED6-68D1-0079-F7FA-9187A3A6F02A</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>A4CA8601-2199-1E43-3AF7-06EE34DB5CC1</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

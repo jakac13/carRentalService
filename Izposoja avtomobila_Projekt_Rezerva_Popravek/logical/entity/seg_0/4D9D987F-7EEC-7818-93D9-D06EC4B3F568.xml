@@ -1,0 +1,91 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="4D9D987F-7EEC-7818-93D9-D06EC4B3F568" name="Opomba">
+<createdBy>Jaka</createdBy>
+<createdTime>2022-05-03 22:23:43 UTC</createdTime>
+<ownerDesignName>Izposoja avtomobila_Projekt_Rezerva_Popravek</ownerDesignName>
+<engineerTo>
+<item key="11956D01-C529-9AE4-0072-C13759313EF9" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Datum_cas" id="483C0E6A-9697-A0CD-171F-71B935D4DF47">
+<createdBy>Jaka</createdBy>
+<createdTime>2022-05-03 22:25:12 UTC</createdTime>
+<ownerDesignName>Izposoja avtomobila_Projekt_Rezerva_Popravek</ownerDesignName>
+<engineerTo>
+<item key="11956D01-C529-9AE4-0072-C13759313EF9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Opomba" id="2E99250C-1F6D-AAD4-8B41-9FFA04F9445E">
+<createdBy>Jaka</createdBy>
+<createdTime>2022-05-03 22:25:28 UTC</createdTime>
+<ownerDesignName>Izposoja avtomobila_Projekt_Rezerva_Popravek</ownerDesignName>
+<engineerTo>
+<item key="11956D01-C529-9AE4-0072-C13759313EF9" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>350</dataTypeSize>
+<ownDataTypeParameters>350,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="VIN_ID_stevilka" id="9DDCCB0E-A362-FB90-C3E5-A609F6D8DE50">
+<createdBy>Jaka</createdBy>
+<createdTime>2022-05-03 22:26:10 UTC</createdTime>
+<generatorID>B37F369E-7614-4F93-D15D-8086BF1C68FD</generatorID>
+<ownerDesignName>Izposoja avtomobila_Projekt_Rezerva_Popravek</ownerDesignName>
+<engineerTo>
+<item key="11956D01-C529-9AE4-0072-C13759313EF9" value="true"/>
+</engineerTo>
+<referedAttribute>4F5EF924-15A1-17A6-A9E1-B8D45DE85F9D</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>17</dataTypeSize>
+<ownDataTypeParameters>17,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_oseba" id="5A3B2379-EF4C-EECC-AF47-DC8465C03F4A">
+<createdBy>Jaka</createdBy>
+<createdTime>2022-05-26 08:40:16 UTC</createdTime>
+<generatorID>0289AD17-FCF3-6676-08E9-5EF0ED1CB3C2</generatorID>
+<ownerDesignName>Izposoja avtomobila_Projekt_Rezerva_Popravek</ownerDesignName>
+<engineerTo>
+<item key="11956D01-C529-9AE4-0072-C13759313EF9" value="true"/>
+</engineerTo>
+<referedAttribute>1EF0081B-F74D-D5E6-C10F-2BA9B20CE5CE</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="6EDE1ADA-8CD5-9552-B7C7-9CA44F1A11EA" name="Opomba PKv1">
+<createdBy>Jaka</createdBy>
+<createdTime>2022-05-26 08:54:52 UTC</createdTime>
+<ownerDesignName>Izposoja avtomobila_Projekt_Rezerva_Popravek</ownerDesignName>
+<engineerTo>
+<item key="11956D01-C529-9AE4-0072-C13759313EF9" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>9DDCCB0E-A362-FB90-C3E5-A609F6D8DE50</attributeRef>
+<attributeRef>5A3B2379-EF4C-EECC-AF47-DC8465C03F4A</attributeRef>
+<attributeRef>483C0E6A-9697-A0CD-171F-71B935D4DF47</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

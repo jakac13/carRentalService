@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="Izposoja avtomobila_Projekt_Rezerva_Popravek" id="2A33EF96-F221-C9DF-3DD3-46E7AC1720E1" version="3.5">
+<createdBy>Jaka</createdBy>
+<createdTime>2022-05-03 22:09:07 UTC</createdTime>
+<ownerDesignName>Izposoja avtomobila_Projekt_Rezerva</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>2A33EF96-F221-C9DF-3DD3-46E7AC1720E1</designId>
+</OSDM_Design>

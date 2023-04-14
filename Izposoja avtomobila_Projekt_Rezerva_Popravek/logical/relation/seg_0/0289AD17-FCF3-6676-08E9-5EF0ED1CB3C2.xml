@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="napise" directorySegmentName="seg_0" id="0289AD17-FCF3-6676-08E9-5EF0ED1CB3C2">
+<createdBy>Jaka</createdBy>
+<createdTime>2022-05-03 22:30:16 UTC</createdTime>
+<ownerDesignName>Izposoja avtomobila_Projekt_Rezerva_Popravek</ownerDesignName>
+<engineerTo>
+<item key="11956D01-C529-9AE4-0072-C13759313EF9" value="true"/>
+</engineerTo>
+<sourcePk>2D84CD70-BDB1-B622-F745-2B7E4E5F78F9</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>5F654688-63E1-926E-F054-B8230934B3FC</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>4D9D987F-7EEC-7818-93D9-D06EC4B3F568</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

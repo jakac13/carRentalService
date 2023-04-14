@@ -1,0 +1,103 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A4CA8601-2199-1E43-3AF7-06EE34DB5CC1" name="Poslovalnica">
+<createdBy>Jaka</createdBy>
+<createdTime>2022-05-03 22:15:02 UTC</createdTime>
+<ownerDesignName>Izposoja avtomobila_Projekt_Rezerva_Popravek</ownerDesignName>
+<engineerTo>
+<item key="11956D01-C529-9AE4-0072-C13759313EF9" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_poslovalnice" id="F4062E7C-E075-3CBB-1438-51680E4FED19">
+<createdBy>Jaka</createdBy>
+<createdTime>2022-05-03 22:15:10 UTC</createdTime>
+<ownerDesignName>Izposoja avtomobila_Projekt_Rezerva_Popravek</ownerDesignName>
+<engineerTo>
+<item key="11956D01-C529-9AE4-0072-C13759313EF9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<ownDataTypeParameters>,20,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Naziv_poslovalnice" id="C204121E-B35E-4DAC-CA96-E33E1BC66C9F">
+<createdBy>Jaka</createdBy>
+<createdTime>2022-05-03 22:15:27 UTC</createdTime>
+<ownerDesignName>Izposoja avtomobila_Projekt_Rezerva_Popravek</ownerDesignName>
+<engineerTo>
+<item key="11956D01-C529-9AE4-0072-C13759313EF9" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Ulica" id="57602FB3-6C97-E2D6-87A3-D5ED2318A1A0">
+<createdBy>Jaka</createdBy>
+<createdTime>2022-05-03 22:18:20 UTC</createdTime>
+<generatorID>BAD95E8E-40C8-00A4-B4EB-9111DD2B99BE</generatorID>
+<ownerDesignName>Izposoja avtomobila_Projekt_Rezerva_Popravek</ownerDesignName>
+<engineerTo>
+<item key="11956D01-C529-9AE4-0072-C13759313EF9" value="true"/>
+</engineerTo>
+<referedAttribute>7BEB8E56-3778-BBA2-BCC2-3A8A940203CF</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Hisna_stevilka" id="E6F4FAD3-04B6-8DD8-6B28-C38529EBE0F5">
+<createdBy>Jaka</createdBy>
+<createdTime>2022-05-03 22:18:20 UTC</createdTime>
+<generatorID>BAD95E8E-40C8-00A4-B4EB-9111DD2B99BE</generatorID>
+<ownerDesignName>Izposoja avtomobila_Projekt_Rezerva_Popravek</ownerDesignName>
+<engineerTo>
+<item key="11956D01-C529-9AE4-0072-C13759313EF9" value="true"/>
+</engineerTo>
+<referedAttribute>4CE8FCF3-60FF-2DAD-D1C5-6121DDE9E1DE</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Postna_stevilka" id="74EA5735-4529-4257-9CC6-BD55CF926BFD">
+<createdBy>Jaka</createdBy>
+<createdTime>2022-05-03 22:18:20 UTC</createdTime>
+<generatorID>BAD95E8E-40C8-00A4-B4EB-9111DD2B99BE</generatorID>
+<ownerDesignName>Izposoja avtomobila_Projekt_Rezerva_Popravek</ownerDesignName>
+<engineerTo>
+<item key="11956D01-C529-9AE4-0072-C13759313EF9" value="true"/>
+</engineerTo>
+<referedAttribute>A5F10EE2-4666-2B5A-D24E-2CC5BED3E680</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="03FD1A96-5E52-53BB-C4B7-408BAA50E3BC" name="Poslovalnica PK">
+<createdBy>Jaka</createdBy>
+<createdTime>2022-05-03 22:15:24 UTC</createdTime>
+<ownerDesignName>Izposoja avtomobila_Projekt_Rezerva_Popravek</ownerDesignName>
+<engineerTo>
+<item key="11956D01-C529-9AE4-0072-C13759313EF9" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>F4062E7C-E075-3CBB-1438-51680E4FED19</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

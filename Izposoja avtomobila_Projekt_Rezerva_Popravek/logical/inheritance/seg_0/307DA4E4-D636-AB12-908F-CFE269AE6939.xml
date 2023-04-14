@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<InheritanceRelation class="oracle.dbtools.crest.model.design.logical.InheritanceRelation" name="Hierarchy_3" directorySegmentName="seg_0" id="307DA4E4-D636-AB12-908F-CFE269AE6939">
+<createdBy>Jaka</createdBy>
+<createdTime>2022-05-03 22:33:44 UTC</createdTime>
+<ownerDesignName>Izposoja avtomobila_Projekt_Rezerva</ownerDesignName>
+<engineerTo>
+<item key="11956D01-C529-9AE4-0072-C13759313EF9" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<nameOnSource>Super Type</nameOnSource>
+<nameOnTarget>Sub Type</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceEntity>6B1BC8F6-4B3A-9F9A-365F-8F5775832D22</sourceEntity>
+<targetEntity>BA86326E-4A74-27AD-4C34-CFCFBBD67077</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</InheritanceRelation>

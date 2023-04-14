@@ -1,0 +1,79 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1F287382-E29C-3645-D592-7C71B752231B" name="Zaposlen">
+<createdBy>Jaka</createdBy>
+<createdTime>2022-05-26 09:08:17 UTC</createdTime>
+<generatorID>5F654688-63E1-926E-F054-B8230934B3FC</generatorID>
+<ownerDesignName>Izposoja avtomobila_Projekt_Rezerva_Popravek</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_oseba" id="E3F5F0CF-CBBE-A515-5752-316FC1091BAC">
+<createdBy>Jaka</createdBy>
+<createdTime>2022-05-26 09:08:17 UTC</createdTime>
+<generatorID>1EF0081B-F74D-D5E6-C10F-2BA9B20CE5CE</generatorID>
+<ownerDesignName>Izposoja avtomobila_Projekt_Rezerva_Popravek</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F5BCC293-B623-7A49-53B6-9730A262DEFD" referredColumn="543E7AD1-38B0-CB86-C128-2EFB92601EB0"/>
+</associations>
+</Column>
+<Column name="Poslovalnica_ID_poslovalnice" id="4353B08A-5EAC-708B-59C7-FF925B2F2269">
+<createdBy>Jaka</createdBy>
+<createdTime>2022-05-26 09:08:17 UTC</createdTime>
+<generatorID>98FEFAB3-0B6A-F657-2ACF-9B1FB653208A</generatorID>
+<ownerDesignName>Izposoja avtomobila_Projekt_Rezerva_Popravek</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B0376112-303B-13A3-2D71-54BD118ABBA9" referredColumn="B24F35A7-87D6-8EF5-4E02-0B242DFB04CC"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="011D048B-FE65-A00A-EAE2-A2A5066F5AE3" name="Zaposlen_PK">
+<createdBy>Jaka</createdBy>
+<createdTime>2022-05-26 09:08:17 UTC</createdTime>
+<generatorID>2D84CD70-BDB1-B622-F745-2B7E4E5F78F9</generatorID>
+<ownerDesignName>Izposoja avtomobila_Projekt_Rezerva_Popravek</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E3F5F0CF-CBBE-A515-5752-316FC1091BAC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B8A57243-6732-7BC1-438D-BADC274FAD3C" name="Zaposlen_Oseba_FK">
+<createdBy>Jaka</createdBy>
+<createdTime>2022-05-26 09:08:17 UTC</createdTime>
+<generatorID>98A106DF-FDE5-6104-6964-5F0122D4A510</generatorID>
+<ownerDesignName>Izposoja avtomobila_Projekt_Rezerva_Popravek</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E3F5F0CF-CBBE-A515-5752-316FC1091BAC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F7570BA8-1F1C-4ABB-E573-4EDACBA78A38" name="Zaposlen_Poslovalnica_FK">
+<createdBy>Jaka</createdBy>
+<createdTime>2022-05-26 09:08:17 UTC</createdTime>
+<generatorID>ABC2FFCF-F6C4-41FF-0023-7D573F9422DC</generatorID>
+<ownerDesignName>Izposoja avtomobila_Projekt_Rezerva_Popravek</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4353B08A-5EAC-708B-59C7-FF925B2F2269"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="38988ED6-68D1-0079-F7FA-9187A3A6F02A" name="Naslov">
+<createdBy>Jaka</createdBy>
+<createdTime>2022-05-03 22:15:54 UTC</createdTime>
+<ownerDesignName>Izposoja avtomobila_Projekt_Rezerva_Popravek</ownerDesignName>
+<engineerTo>
+<item key="11956D01-C529-9AE4-0072-C13759313EF9" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Ulica" id="7BEB8E56-3778-BBA2-BCC2-3A8A940203CF">
+<createdBy>Jaka</createdBy>
+<createdTime>2022-05-03 22:16:01 UTC</createdTime>
+<ownerDesignName>Izposoja avtomobila_Projekt_Rezerva_Popravek</ownerDesignName>
+<engineerTo>
+<item key="11956D01-C529-9AE4-0072-C13759313EF9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Hisna_stevilka" id="4CE8FCF3-60FF-2DAD-D1C5-6121DDE9E1DE">
+<createdBy>Jaka</createdBy>
+<createdTime>2022-05-03 22:16:21 UTC</createdTime>
+<ownerDesignName>Izposoja avtomobila_Projekt_Rezerva_Popravek</ownerDesignName>
+<engineerTo>
+<item key="11956D01-C529-9AE4-0072-C13759313EF9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Postna_stevilka" id="A5F10EE2-4666-2B5A-D24E-2CC5BED3E680">
+<createdBy>Jaka</createdBy>
+<createdTime>2022-05-03 22:17:49 UTC</createdTime>
+<generatorID>46706D5B-2FA3-9335-B09F-AD68B5BCAFE5</generatorID>
+<ownerDesignName>Izposoja avtomobila_Projekt_Rezerva_Popravek</ownerDesignName>
+<engineerTo>
+<item key="11956D01-C529-9AE4-0072-C13759313EF9" value="true"/>
+</engineerTo>
+<referedAttribute>12A201D1-8844-8700-EECD-4155EC74B80D</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="DC11BC8D-29D9-F270-9922-A13C2AB567C0" name="Naslov PK">
+<createdBy>Jaka</createdBy>
+<createdTime>2022-05-03 22:16:07 UTC</createdTime>
+<ownerDesignName>Izposoja avtomobila_Projekt_Rezerva_Popravek</ownerDesignName>
+<engineerTo>
+<item key="11956D01-C529-9AE4-0072-C13759313EF9" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>7BEB8E56-3778-BBA2-BCC2-3A8A940203CF</attributeRef>
+<attributeRef>4CE8FCF3-60FF-2DAD-D1C5-6121DDE9E1DE</attributeRef>
+<attributeRef>A5F10EE2-4666-2B5A-D24E-2CC5BED3E680</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

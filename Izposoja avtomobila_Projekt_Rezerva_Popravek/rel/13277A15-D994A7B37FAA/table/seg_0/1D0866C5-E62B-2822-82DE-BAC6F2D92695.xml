@@ -1,0 +1,52 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1D0866C5-E62B-2822-82DE-BAC6F2D92695" name="Stranka">
+<createdBy>Jaka</createdBy>
+<createdTime>2022-05-26 09:08:17 UTC</createdTime>
+<generatorID>6B1BC8F6-4B3A-9F9A-365F-8F5775832D22</generatorID>
+<ownerDesignName>Izposoja avtomobila_Projekt_Rezerva_Popravek</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_oseba" id="B5A060D8-AD11-D3B6-CF5A-D86ACA92FF83">
+<createdBy>Jaka</createdBy>
+<createdTime>2022-05-26 09:08:17 UTC</createdTime>
+<generatorID>1EF0081B-F74D-D5E6-C10F-2BA9B20CE5CE</generatorID>
+<ownerDesignName>Izposoja avtomobila_Projekt_Rezerva_Popravek</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8659F76B-F7BD-0F44-436C-61BC878BD6C9" referredColumn="543E7AD1-38B0-CB86-C128-2EFB92601EB0"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="82E38E64-209F-4100-E9F2-E0C62044541C" name="Stranka_PK">
+<createdBy>Jaka</createdBy>
+<createdTime>2022-05-26 09:08:17 UTC</createdTime>
+<generatorID>2D84CD70-BDB1-B622-F745-2B7E4E5F78F9</generatorID>
+<ownerDesignName>Izposoja avtomobila_Projekt_Rezerva_Popravek</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B5A060D8-AD11-D3B6-CF5A-D86ACA92FF83"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="087D1F1F-02A5-06DF-8D2E-9FE39F46A930" name="Stranka_Oseba_FK">
+<createdBy>Jaka</createdBy>
+<createdTime>2022-05-26 09:08:17 UTC</createdTime>
+<generatorID>BACD4B6F-069D-6448-13CB-54AEF7DC98F9</generatorID>
+<ownerDesignName>Izposoja avtomobila_Projekt_Rezerva_Popravek</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B5A060D8-AD11-D3B6-CF5A-D86ACA92FF83"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
